@@ -2423,3 +2423,631 @@ java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.m
 	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
 	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 00:00:45.009
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 00:00:45.009
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 00:20:45.009
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 00:20:45.009
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 01:20:45.011
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 01:20:45.011
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 07:51:56.815
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 07:51:56.869
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 16:59:36.761
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 16:59:36.762
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 18:48:31.394
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 18:48:31.394
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 19:08:31.597
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 19:08:31.597
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.index.core 4 0 2012-10-25 19:15:15.922
+!MESSAGE (Build 3.1.3.1337406272) [ERROR]  /Users/dlove/rails_projects/treebook/.metadata/.plugins/com.aptana.index.core/114577082.index (No such file or directory)
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.plugins/com.aptana.index.core/114577082.index (No such file or directory)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:120)
+	at com.aptana.internal.index.core.DiskIndex.readCategoryTable(DiskIndex.java:1076)
+	at com.aptana.internal.index.core.DiskIndex.addQueryResults(DiskIndex.java:303)
+	at com.aptana.index.core.Index.query(Index.java:552)
+	at com.aptana.editor.html.contentassist.index.HTMLIndexReader.getElements(HTMLIndexReader.java:251)
+	at com.aptana.editor.html.contentassist.HTMLIndexQueryHelper.getElement(HTMLIndexQueryHelper.java:230)
+	at com.aptana.editor.html.text.HTMLTextHover.getMatchingElement(HTMLTextHover.java:83)
+	at com.aptana.editor.html.text.HTMLTextHover.getHoverInfo2(HTMLTextHover.java:50)
+	at com.aptana.editor.common.CommonSourceViewerConfiguration$TextHover.getHoverInfo2(CommonSourceViewerConfiguration.java:674)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 19:29:42.133
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 19:29:42.134
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 19:46:03.233
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 19:46:03.234
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-25 20:06:03.234
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-25 20:06:03.234
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 03:27:32.770
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 03:27:32.891
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 20:59:28.748
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 20:59:28.812
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 22:22:33.792
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 22:22:33.792
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 22:42:33.995
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 22:42:33.995
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 22:45:09.571
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 22:45:09.571
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-26 23:05:09.623
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-26 23:05:09.623
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-27 03:44:05.505
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-27 03:44:05.658
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2012-10-27 17:18:09.270
+!MESSAGE Save failed for Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Saving Task List failed
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:128)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	... 7 more
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2012-10-27 17:18:09.328
+!MESSAGE Saving Task List failed
+!STACK 0
+java.io.FileNotFoundException: /Users/dlove/rails_projects/treebook/.metadata/.mylyn/tasks.xml.zip (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.writeTaskList(TaskListExternalizer.java:109)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant$2.execute(TaskListExternalizationParticipant.java:129)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:673)
+	at org.eclipse.mylyn.internal.tasks.core.TaskList.run(TaskList.java:664)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizationParticipant.save(TaskListExternalizationParticipant.java:133)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
