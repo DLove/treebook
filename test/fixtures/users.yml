@@ -5,3 +5,11 @@ dlove:
   profile_name: "dlove"
   #password: "password"
   #password_confirmation: "password"
+
+bob:
+  first_name: "bob"
+  last_name: "Janitor"
+  email: "bob@janitor.com"
+  profile_name: "bobjanitor"
+  #password: "password"
+  #password_confirmation: "password"

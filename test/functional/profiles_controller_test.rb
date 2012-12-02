@@ -18,4 +18,11 @@ class ProfilesControllerTest < ActionController::TestCase
   	assert_not_empty assigns(:statuses)
   end
 
+  test "Profile only shows statuses from correct user" do
+    get :show, id: users(:dlove).profile_name
+    assigns(:statuses).each do |status|
+      assert_equal users(:dlove), status.user
+    end
+  end
+
 end

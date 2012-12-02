@@ -6,7 +6,7 @@
 <%= link_to "New Status", new_status_path, class: "btn btn-primary" %>
 <% @statuses.each do |status| %>
 	<div class="status">
-		<strong><%= status.user.full_name %></strong>
+		<strong><%= link_to status.user.full_name, status.user.profile_name %></strong>
 		<p><%= status.content %></p>
 	
 	  <div class="meta">
