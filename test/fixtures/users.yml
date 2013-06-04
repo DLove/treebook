@@ -13,3 +13,9 @@ bob:
   profile_name: "bobjanitor"
   #password: "password"
   #password_confirmation: "password"
+
+mike:
+    first_name: "Mike"
+    last_name: "The Frog"
+    email: "mike@janitor.com"
+    profile_name: "mikethefrog"
